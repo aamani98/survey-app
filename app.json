@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "survey-app",
+    "name": "Survey App",
     "slug": "survey-app",
     "version": "1.0.0",
+    "owner": "aamani98",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aamani98.surveyapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.aamani98.surveyapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f1c57c3-6627-45db-b5f4-18ed3a20398a"
+      }
     }
   }
 }
